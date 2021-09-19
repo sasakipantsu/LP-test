@@ -1,0 +1,396 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  min-width: 1000px;
+}
+
+/* ヘッダー */
+
+.header {
+  width: 100%;
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header_img img {
+  display: block;
+  width: 100px;
+}
+.header_nav_li {
+  display: flex;
+  font-size: 18px;
+}
+.header_nav_li_item a {
+  text-decoration: none;
+  color: rgb(95, 93, 93);
+  padding-left: 20px;
+}
+
+/* トップページ */
+
+.top {
+  width: 100%;
+  padding-bottom: 100px;
+}
+.top_img img {
+  display: block;
+  width: 60%;
+  margin: 0 0 0 auto;
+  position: relative;
+}
+.top_ttl {
+  min-width: 800px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 4rem;
+  position: absolute;
+  top: 2.3em;
+  left: 21vw;
+}
+.top_ttl h1 {
+  line-height: 5.8rem;
+  font-weight: 300;
+  color: rgb(155, 40, 69);
+}
+.top_ttl span {
+  color: rgb(45, 145, 145);
+}
+.top_ttl_text {
+  position: absolute;
+  top: 23em;
+  left: 21vw;
+}
+.top_ttl_text_h2 {
+  font-size: 1.4rem;
+  color: rgb(155, 40, 69);
+  line-height: 2rem;
+}
+.top_ttl_text_h2 span {
+  color: rgb(45, 145, 145);
+  line-height: 1rem;
+}
+.top_ttl_text_p {
+  color: rgb(95, 93, 93);
+  line-height: 2rem;
+}
+
+/* ニュース */
+
+.news {
+  width: 100%;
+  margin-top: 100px;
+}
+.news_page_ttl {
+  width: 60%;
+  margin: 0 auto;
+}
+.page_ttl_1 {
+  font-family: "Comic Sans MS";
+  color: rgb(155, 40, 69);
+  margin-bottom: 20px;
+}
+.page_ttl_2 {
+  font-size: 25px;
+  color: rgb(95, 93, 93);
+  margin-bottom: 30px;
+}
+.news_border_top {
+  width: 60%;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+.news_ul {
+  width: 60%;
+  margin: 0 auto;
+}
+.news_ul_li {
+  display: flex;
+  padding: 25px 0;
+  border-bottom: 1px solid #ccc;
+}
+.news_li_date {
+  color: rgb(95, 93, 93);
+  margin-top: 3px;
+}
+.news_li_lavel {
+  background-color:  rgb(155, 40, 69);
+  color: white;
+  border-radius: 30px;
+  padding: 3px 15px;
+  margin: 0 15px;
+} 
+.news_li_text {
+  color: rgb(95, 93, 93);
+  margin-top: 3px;
+}
+.news_border_bottom {
+  width: 60%;
+  border: 1px solid #ccc;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+
+/* アバウト */
+
+.about {
+  width: 100%;
+  padding: 50px 0;
+  background-color: rgb(240, 239, 239);
+}
+.about_page_ttl {
+  text-align: center;
+}
+.about_main {
+  padding: 0 18%;
+  display: flex;
+  justify-content: space-between;
+}
+.about_text {
+  display: inline-block;
+  width: 40%;
+  color: rgb(95, 93, 93);
+  line-height: 24px;
+}
+.about_text_1 {
+  margin-bottom: 20px;
+}
+.about_img {
+  display: inline-block;
+  width: 40%;
+}
+
+/* サービス */
+
+.service {
+  width: 100%;
+  padding: 50px 18%;
+}
+.service_grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
+}
+.service_box1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background-color: rgb(180, 16, 92);
+  color: white;
+  text-align: center;
+}
+.service_box2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: rgb(216, 97, 153);
+  color: white;
+  padding: 5% 0 5% 5%;
+}
+.service_box3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: rgb(209, 145, 175);
+  color: white;
+  padding: 5% 0 5% 5%;
+}
+.service_img {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+.service_text_1{
+  margin-top: 10px;
+}
+.service_text_2 {
+  text-align: initial;
+  line-height: 24px;
+  margin-top: 10px;
+  padding: 0 10%;
+}
+.service_box1_all {
+  margin-top: 5%;
+}
+.service_box_text {
+  display: inline-block;
+  width: 65%;
+  vertical-align: middle;
+}
+.service_text_00 {
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+/* ブログ */
+
+.blog {
+  width: 100%;
+  padding: 50px 18%;
+  background-color: rgb(240, 239, 239);
+}
+.blog_page_ttl {
+  margin-bottom: 50px;
+}
+.blog_card {
+  display: flex;
+  justify-content: space-between;
+}
+.blog_card_1 {
+  width: 30%;
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+}
+.blog_card_img img {
+  display: inline-block;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.blog_card_top {
+  width: 25%;
+  padding: 8px 10px;
+  color: white;
+  background-color: rgb(155, 40, 69);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px 0 0 0;
+  text-align: center;
+}
+.blog_card_text {
+  color: rgb(95, 93, 93);
+  font-weight: bold;
+  padding: 6% 10%;
+  line-height: 24px;
+}
+.blog_card_foot {
+  padding: 5% 10%;
+  color: rgb(95, 93, 93);
+  font-size: 13px;
+}
+.blog_card_foot p {
+  display: inline-block;
+}
+.blog_card_foot_2 {
+  float: right;
+}
+.blog_btn a {
+  display: block;
+  text-decoration: none;
+  color: rgb(155, 40, 69);
+  width: 200px;
+  padding: 15px 0;
+  height: 50px;
+  border: 2px solid rgb(155, 40, 69);
+  border-radius: 30px;
+  background-color: white;
+  text-align: center;
+  margin: 50px auto;
+}
+
+/* カンパニー */
+
+.company_page_ttl {
+  width: 50%;
+  margin: 80px auto 0;
+}
+.company_table {
+  width: 50%;
+  margin: 0 auto 80px;
+}
+.company_table tr {
+  border: 1px solid #ccc;
+}
+.company_table tr+tr {
+  border-top: none;
+}
+.company_table th {
+  width: 30%;
+  font-weight: bold;
+  background-color: rgb(240, 239, 239);
+  text-align: left;
+}
+.company_table th,.company_table td{
+  padding: 20px 30px;
+  color: rgb(95, 93, 93);
+}
+
+/* コンタクト */
+
+.contact {
+  width: 100%;
+}
+.contact_img_text_1 {
+  display: inline-block;
+  width: 50%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  background-image: url(../img/recruit.png);
+  text-align: center;
+  line-height: 300px;
+}
+.contact_img_text_2 {
+  display: inline-block;
+  width: 50%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  background-image: url(../img/interview.png);
+  text-align: center;
+  line-height: 300px;
+}
+.contact_text {
+  color: rgb(95, 93, 93);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 80px;
+  text-align: center;
+}
+.contact_border {
+  width: 2px;
+  height: 50px;
+  background-color: rgb(155, 40, 69);
+  margin: 30px auto;
+}
+.contact_btn a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  width: 300px;
+  padding: 30px 0;
+  font-size: 20px;
+  border-radius: 45px;
+  background: linear-gradient(90deg,rgb(252, 93, 132),rgb(155, 40, 69));
+  text-align: center;
+  margin: 0 auto 80px;
+  box-shadow: 0 8px 0 rgb(99, 25, 43);
+  position: relative;
+}
+.contact_btn a::before {
+  content: "";
+  position: absolute;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%) translateX(-15%)
+}
+
+/* フッター */
+
+.footer {
+  width: 100%;
+  background-color: rgb(240, 239, 239);
+  padding: 20px 0;
+  color: rgb(95, 93, 93);
+  text-align: center;
+}
